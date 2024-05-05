@@ -2,7 +2,7 @@
 Experiments with DNA and protein search using sequenceserver
 
 
-![Search example](images/hemosearch.svg)
+![Search example](images/hemosearch.png)
 
 
 ## Prerequisites
