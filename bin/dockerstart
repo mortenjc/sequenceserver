@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+colima status
+
+if [ $? -eq 0 ]; then
+    echo Colima is already running
+else
+    echo Colima is not running, starting ...
+    colima start
+fi

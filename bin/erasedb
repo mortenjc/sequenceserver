@@ -1,0 +1,17 @@
+#!/bin/bash
+
+dir=$(pwd)/db
+
+if [ ! -d "$dir" ] ; then
+  echo 'directory $dir does not exist, exiting ...'
+  exit 1
+fi
+
+echo -n 'Press enter to delete db files (Ctrl-C to stop)'
+
+read proceed
+
+pushd $dir
+  find . -type f -name "*.fasta.*" | xargs rm
+  find . -type f -name "*.taxid*" | xargs rm
+popd

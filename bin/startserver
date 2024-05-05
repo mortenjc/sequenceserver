@@ -1,0 +1,5 @@
+#!/bin/bash
+
+dir=$(pwd)/db
+
+docker run --rm -it -p 4567:4567 -v $dir:/db docker.io/wurmlab/sequenceserver:latest
