@@ -2,6 +2,9 @@
 Experiments with DNA and protein search using sequenceserver
 
 
+![Search example](images/hemosearch.svg)
+
+
 ## Prerequisites
 Colima or Docker desktop is required. The scripts in **bin/** assume colima.
 
@@ -37,4 +40,4 @@ Chowdhary H, Pieniak I, Maynard LJ, Gibbins MA, Moon H,
 Davis-Richardson A, Uludag M, Watson-Haigh N, Challis R,
 Nakamura H, Favreau E, Gómez EA, Pluskal T, Leonard G,
 Rumpf W & Wurm Y. _Sequenceserver: A modern graphical user
-interface for custom BLAST databases._ **Molecular Biology and Evolution (2019)**
+interface for custom BLAST databases._ Molecular Biology and Evolution (2019)
